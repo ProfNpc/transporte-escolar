@@ -1,7 +1,7 @@
 # transporte-escolar
 Repositório da equipe do projeto "Transporte Escolar"
 
-#Instruções Git#
+# Instruções Git #
 
 ##Preparação##
 
@@ -63,7 +63,7 @@ ou
 
 `git commit -m "<descrição das alterações incluídas neste commit>"`
 
-
+5. Por fim, envie as alterações para o repositório remoto com
 
 `git push origin main`
 
