@@ -1,9 +1,9 @@
 # transporte-escolar
 Repositório da equipe do projeto "Transporte Escolar"
 
-# Instruções Git #
+## Instruções Git ##
 
-##Preparação##
+### Preparação ###
 
 1 - Abra o git bash
 2 - Execute os seguintes comandos para configurar o nome do seu usuário e o seu e-mail
@@ -16,7 +16,7 @@ Repositório da equipe do projeto "Transporte Escolar"
 `git config --global core.autocrlf true`
 `git config --global core.safecrlf warn`
 
-##Baixando o projeto##
+### Baixando o projeto ###
 
 1. Execute o comando abaixo para se mover para o seu diretório 
 
@@ -37,7 +37,7 @@ Com isso será criada uma pasta com o seu projeto
 `git remote -v`
 	
 
-##Como baixar as atualizações do repositório remoto:##
+### Como baixar as atualizações do repositório remoto: ###
 
 `git pull origin main`
 
@@ -45,7 +45,7 @@ ou
 
 `git pull`
 
-##Como subir suas alterações para o repositório remoto:##
+### Como subir suas alterações para o repositório remoto: ###
 
 1. Execute o comando abaixo para verificar os arquivos alterados
 
