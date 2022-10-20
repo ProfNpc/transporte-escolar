@@ -54,17 +54,17 @@ ou
 
 `git status`
 
-2. Execute o comando abaixo para verificar o que foi alterado em cada arquivos
+2. Execute o comando abaixo para verificar o que foi alterado em cada arquivo
 
 `git diff`
 
-3. Uma vez que você se certificou que as alterações estão corretas, execute o comando a abaixo para preparar um pacote de alterações para serem preservadas no repositório "estacionando" essas alterações na área conhecida como "stage".
+3. Uma vez que você se certificou que as alterações estão corretas, execute o comando a seguir para preparar um pacote de alterações para serem preservadas no repositório "estacionando" essas alterações na área conhecida como "stage".
 
 `git add .`
 
 4. Adicione o pacote de alterações ao seu repositório local com o comando abaixo:
 
-`git commit -m "<descrição das alterações incluídas neste commit>"`
+`git commit -m "<descrição sucinta das alterações incluídas neste commit>"`
 
 5. Por fim, envie as alterações para o repositório remoto com
 
