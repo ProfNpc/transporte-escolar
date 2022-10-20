@@ -1,2 +1,73 @@
 # transporte-escolar
 Repositório da equipe do projeto "Transporte Escolar"
+
+#Instruções Git#
+
+##Preparação##
+
+1 - Abra o git bash
+2 - Execute os seguintes comandos para configurar o nome do seu usuário e o seu e-mail
+
+`git config --global user.name "Seu Nome"`
+`git config --global user.email "seu_email@qualquercoisa.com"`
+
+3 - Execute os comandos abaixo para configurar os caracteres de fim-de-linha
+
+`git config --global core.autocrlf true`
+`git config --global core.safecrlf warn`
+
+##Baixando o projeto##
+
+1. Execute o comando abaixo para se mover para o seu diretório 
+
+`cd /d/<caminho do seu diretório>`
+
+2. Execute o comando abaixo para baixar o projeto do GitHub
+
+`git clone https://github.com/ProfNpc/transporte-escolar.git`
+
+3. Mova para o diretório do projeto
+
+cd transporte-escolar
+
+Com isso será criada uma pasta com o seu projeto
+
+>Obs.: Se você executar o comando abaixo verá que o seu projeto já está apontando para repositório remoto correto.
+
+`git remote -v`
+	
+
+##Como baixar as atualizações do repositório remoto:##
+
+`git pull origin main`
+
+ou
+
+`git pull`
+
+##Como subir suas alterações para o repositório remoto:##
+
+1. Execute o comando abaixo para verificar os arquivos alterados
+
+`git status`
+
+2. Execute o comando abaixo para verificar o que foi alterado em cada arquivos
+
+`git diff`
+
+3. Uma vez que você se certificou que as alterações estão corretas, execute o comando a abaixo para preparar um pacote de alterações para serem preservadas no repositório "estacionando" essas alterações na área conhecida como "stage".
+
+`git add .`
+
+4. Adicione o pacote de alterações ao seu repositório local com o comando abaixo:
+
+`git commit -m "<descrição das alterações incluídas neste commit>"`
+
+
+
+`git push origin main`
+
+ou
+
+`git push`
+
