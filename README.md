@@ -7,6 +7,8 @@ Repositório da equipe do projeto "Transporte Escolar"
 
 1 - Abra o git bash
 
+ou abra o terminal no visual studio code
+
 2 - Execute os seguintes comandos para configurar o nome do seu usuário e o seu e-mail
 
 `git config --global user.name "Seu Nome"`
