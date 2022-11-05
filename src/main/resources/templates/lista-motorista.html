@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lista de Motorista</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Lista de Motorista</h1>
+		
+		<table border="1">
+			<tr>
+				<th>ID</th>
+				<th>Nome</th>
+			</tr>
+			<tr th:each="mot : ${motorista}">
+				<td>
+					<span th:text="${mot.id}"></span>
+				</td>
+				<td>
+					<span th:text="${mot.nome}"></span>
+				</td>
+			</tr>
+		</table>
+
+	</body>
+</html>
+
