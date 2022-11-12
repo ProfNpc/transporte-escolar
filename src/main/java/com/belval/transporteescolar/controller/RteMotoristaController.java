@@ -37,36 +37,13 @@ public class RteMotoristaController {
 			int b, String texto, double sal) {
 		return "";
 	}
+
 	
 	@PostMapping("/motorista/novo")
-	public String novo(
-			@RequestParam("id") int id,
-			@RequestParam("nome") String nome,
-			@RequestParam("cpf") String cpf,
-			@RequestParam("cnh") double cnh,
-			Model model) {
-		
-		model.addAttribute("id", id);
-		model.addAttribute("nome", nome);
-		model.addAttribute("cpf", cpf);
-		model.addAttribute("cnh", cnh);
-		
-		return "novo-motorista-criado";
-	}
-	
-	@GetMapping("/motorista/novo2")
-	public String novo2() {
-		return "novo-motorista2";
-	}
-	
-
-
-	
-	@PostMapping("/motorista/novo2")
 	public ModelAndView novo(Motorista mot) {
 		
 		ModelAndView mv = 
-				new ModelAndView("novo-motorista-criado2");
+				new ModelAndView("redirect:/motorista/list");
 		
 		listamotorista.add(mot);
 		
